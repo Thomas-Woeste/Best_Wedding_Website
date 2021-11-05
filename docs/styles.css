@@ -1,17 +1,25 @@
-h1 {
+#header {
     text-align: center;
-    font-family: "Cursive", "Lucida Handwriting";
-    font-size: 60px;
+    font-family: cursive, "Lucida Handwriting";
+    font-size: 70px;
+    margin-top: 40pt;
+}
+
+#subheader {
+    text-align: center;
+    opacity: 0.6;
+    margin-top: 16pt;
 }
 
 .navbar-nav.navbar-center {
+    margin-top: 72pt;
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
 } 
 
 .bodyClass {
-    background-image: url('https://mdbootstrap.com/img/new/slides/041.jpg'); 
+    background-image: url("background.jpg");
     background-repeat: no-repeat;
     background-size: auto;
     height: 100%;
