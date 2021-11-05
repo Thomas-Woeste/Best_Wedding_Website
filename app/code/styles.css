@@ -19,9 +19,20 @@
 } 
 
 .bodyClass {
-    background-image: url("background.jpg");
+    background-image: url("../assets/background.jpg");
     background-repeat: no-repeat;
     background-size: auto;
     height: 100%;
 }
 
+.nav-item .nav-link .active {
+    text-decoration: underline;
+}
+
+div.pic {
+    width: 600px; /*width of your image*/
+    height: 600px; /*height of your image*/
+    background-image: url("../assets/IMG-192.jpg");
+    margin: 0; /* If you want no margin */
+    padding: 0; /*if your want to padding */
+}
