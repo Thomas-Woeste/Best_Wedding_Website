@@ -1,3 +1,7 @@
+*{
+    font-family: 'Fanwood Text', serif;
+}
+
 #header {
     text-align: center;
     font-family: cursive, "Lucida Handwriting";
@@ -25,14 +29,28 @@
     height: 100%;
 }
 
-.nav-item .nav-link .active {
+.collapse.navbar-collapse a.active {
     text-decoration: underline;
 }
 
-div.pic {
-    width: 600px; /*width of your image*/
-    height: 600px; /*height of your image*/
-    background-image: url("../assets/IMG-192.jpg");
-    margin: 0; /* If you want no margin */
-    padding: 0; /*if your want to padding */
+.collapse.navbar-collapse a:hover { 
+    text-decoration: underline;
+}
+
+.img-responsive {
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    width: 50%;
+    width: 750px;
+    height: 500px;
+}
+
+div#ourStoryText {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
 }
