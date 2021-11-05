@@ -1,19 +1,18 @@
-#rsvpTab {
-    background-color: blue;
+h1 {
+    text-align: center;
+    font-family: "Cursive", "Lucida Handwriting";
+    font-size: 60px;
 }
 
-#storyTab {
-    background-color: blue;
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+} 
+
+.bodyClass {
+    background-image: url('https://mdbootstrap.com/img/new/slides/041.jpg'); 
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
-#infoTab {
-    background-color: blue;
-}
-
-#seatingTab {
-    background-color: blue;
-}
-
-#hotelTab {
-    background-color: blue;
-}
