@@ -15,6 +15,13 @@
     margin-top: 16pt;
 }
 
+#rsvpForm {
+    text-align: center;
+    margin-top: 100pt;
+    display:block;
+    position: relative;
+}
+
 .navbar-nav.navbar-center {
     margin-top: 72pt;
     position: absolute;
