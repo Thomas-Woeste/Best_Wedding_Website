@@ -61,3 +61,28 @@ div#ourStoryText {
     margin-right: 100px;
     margin-bottom: 100px;
 }
+
+div#weddingPartyText {
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 225px;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+div#partyColumn {
+    justify-content: center;
+    align-items: center;
+}
+
+#textFormat {
+    color: rgb(88, 89, 91);
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Fanwood Text";
+    margin-bottom: 20px;
+}
+
+div#hotel {
+    justify-content: center;
+}
