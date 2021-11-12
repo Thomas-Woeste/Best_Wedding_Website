@@ -60,7 +60,7 @@ div#hotelLink {
 
 .bodyClass {
     background-image: url("../assets/background.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: auto;
     height: 100%;
 }
@@ -121,5 +121,9 @@ div#hotel {
 div#weddingDay {
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+div#weddingTimeSection {
     text-align: center;
 }
