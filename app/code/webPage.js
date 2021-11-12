@@ -1,3 +1,3 @@
-function WriteToDatabase(passForm) {
-
+function WriteToDatabase() {
+    const name = document.getElementById
  }

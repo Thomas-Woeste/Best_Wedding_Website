@@ -13,6 +13,7 @@
     text-align: center;
     opacity: 0.6;
     margin-top: 16pt;
+    font-family: "Fanwood Text";
 }
 
 #rsvpForm {
@@ -20,6 +21,34 @@
     margin-top: 100pt;
     display:block;
     position: relative;
+}
+
+div#hotel {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+div#hotelName {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: -75px;
+    font-size: large;
+}
+
+div#hotelInfo {
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: 0px;
+    font-size: large;
+}
+
+div#hotelLink {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: large;
 }
 
 .navbar-nav.navbar-center {
@@ -65,14 +94,16 @@ div#ourStoryText {
 div#weddingPartyText {
     justify-content: center;
     margin-top: 100px;
-    margin-left: 225px;
     margin-bottom: 100px;
     align-items: center;
 }
 
 div#partyColumn {
+    margin-bottom: 10px;
+    font-size: 20px;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 #textFormat {
@@ -85,4 +116,10 @@ div#partyColumn {
 
 div#hotel {
     justify-content: center;
+}
+
+div#weddingDay {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }

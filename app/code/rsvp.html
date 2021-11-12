@@ -10,9 +10,10 @@
     <title>Wedding Time</title>
 
     <body class="bodyClass"  id="ourStoryPage">
-        <div>
-            <h1 id="header">RSVP</h1>
-        </div>
+      <div>
+        <h1 id="header">Haley + Joshua</h1>
+        <h3 id="subheader">June 4, 2022 - LEXINGTON, KY</h3>
+      </div>
 
         <div>
           <nav class="navbar navbar-expand-lg navbar-light">
@@ -52,7 +53,7 @@
         </div>
 
           <div id="rsvpForm">
-            <form onSubmit="writeToDatabase(this)" id="rsvpForm" method="post">
+            <form id="rsvpForm" method="post">
               <fieldset id="formInputs">
                 <label for="fullName" id="textFormat">Full Name</label>
                 <input type="text" id="fullName" placeholder="First and Last" required="" name=nameField>
@@ -73,7 +74,7 @@
                 </select>
                 <input type="hidden" id="email-subject" value="RSVP">
               </fieldset>
-              <input type="submit" value="Submit">
+              <input type="submit" value="Submit" onclick="writeToDatabase()">
             </form>
         </div>
 
