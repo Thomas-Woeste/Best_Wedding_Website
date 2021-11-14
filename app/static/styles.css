@@ -59,7 +59,7 @@ div#hotelLink {
 } 
 
 .bodyClass {
-    background-image: url("../assets/background.jpg");
+    background-image: url("../static/background.jpg");
     background-repeat: repeat-y;
     background-size: auto;
     height: 100%;
