@@ -1,129 +1,154 @@
-*{
-    font-family: 'Fanwood Text', serif;
+* {
+  font-family: "Fanwood Text", serif;
 }
 
 #header {
-    text-align: center;
-    font-family: cursive, "Lucida Handwriting";
-    font-size: 70px;
-    margin-top: 40pt;
+  text-align: center;
+  font-family: cursive, "Lucida Handwriting";
+  font-size: 70px;
+  margin-top: 40pt;
 }
 
 #subheader {
-    text-align: center;
-    opacity: 0.6;
-    margin-top: 16pt;
-    font-family: "Fanwood Text";
+  text-align: center;
+  opacity: 0.6;
+  margin-top: 16pt;
+  font-family: "Fanwood Text";
 }
 
-#rsvpForm {
-    text-align: center;
-    margin-top: 100pt;
-    display:block;
-    position: relative;
+div#rsvpForm {
+  text-align: center;
+  margin-top: 100pt;
+  display: block;
+  position: relative;
 }
 
 div#hotel {
-    margin-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 100px;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
 }
 
 div#hotelName {
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: -75px;
-    font-size: large;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: -75px;
+  font-size: large;
 }
 
 div#hotelInfo {
-    text-align: center;
-    margin-top: -40px;
-    margin-bottom: 0px;
-    font-size: large;
+  text-align: center;
+  margin-top: -40px;
+  margin-bottom: 0px;
+  font-size: large;
 }
 
 div#hotelLink {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 15px;
-    font-size: large;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: large;
 }
 
 .navbar-nav.navbar-center {
-    margin-top: 72pt;
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-} 
+  margin-top: 72pt;
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
 
 .bodyClass {
-    background-image: url("../static/background.jpg");
-    background-repeat: repeat-y;
-    background-size: auto;
-    height: 100%;
+  background-image: url("../static/background.jpg");
+  background-repeat: repeat-y;
+  background-size: auto;
+  height: 100%;
 }
 
 .collapse.navbar-collapse a.active {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-.collapse.navbar-collapse a:hover { 
-    text-decoration: underline;
+.collapse.navbar-collapse a:hover {
+  text-decoration: underline;
 }
 
 .img-responsive {
-    display: block;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 100px;
-    width: 50%;
-    width: 750px;
-    height: 500px;
+  display: block;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  width: 50%;
+  width: 750px;
+  height: 500px;
 }
 
 div#ourStoryText {
-    margin-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 100px;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
 }
 
 div#weddingPartyText {
-    justify-content: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  align-items: center;
 }
 
 div#partyColumn {
-    margin-bottom: 10px;
-    font-size: 20px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 #textFormat {
-    color: rgb(88, 89, 91);
-    font-size: 25px;
-    font-weight: 400;
-    font-family: "Fanwood Text";
-    margin-bottom: 20px;
+  color: rgb(88, 89, 91);
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Fanwood Text";
+  margin-bottom: 20px;
 }
 
 div#hotel {
-    justify-content: center;
+  justify-content: center;
 }
 
 div#weddingDay {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 div#weddingTimeSection {
-    text-align: center;
+  text-align: center;
+}
+
+.btn-outline {
+  outline: none;
+  display: block;
+  border: solid 1px blue;
+  font-size: 16px;
+  line-height: 1;
+  padding: 16px 30px;
+  border-radius: 30px;
+  background: black;
+  color: green;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.btn-outline:hover,
+.btn-outline:focus {
+  background: yellow;
+  color: white;
+}
+
+.btn-outline:active {
+  background: white;
+  color: yellow;
 }
