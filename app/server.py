@@ -1,4 +1,4 @@
-from flask import Flask, render_template, send_file
+from flask import Flask, render_template, send_file, request
 
 app = Flask(__name__, static_url_path='/static')
 
@@ -31,9 +31,14 @@ def party():
 def seating():
     return  render_template('seating.html')
 
-@app.route("/rsvp.html")
+@app.route("/rsvp.html", methods=['GET', 'POST'])
 def rsvp():
-    return  render_template('rsvp.html')
+    if request.method == 'GET':
+        return  render_template('rsvp.html')
+    elif request.method == 'POST':
+        form_data = request.form
+        print(form_data)
+        return render_template('rsvp.html')
 
 @app.route("/static/background.jpg")
 def background():
