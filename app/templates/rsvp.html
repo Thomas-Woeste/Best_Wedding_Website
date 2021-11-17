@@ -9,7 +9,10 @@
     </head>
     <title>Wedding Time</title>
 
-    <body class="bodyClass"  id="ourStoryPage">
+    <body class="bodyClass">
+
+      <div> <img class="homeHeader" src="https://media-api.xogrp.com/images/78f78640-e6f5-48ca-816e-a10d686b6ec4~rt_auto-rs_1024.h?ordering=explicit" style="margin-bottom: -210px;"> </div>
+
       <div>
         <h1 id="header">Haley + Joshua</h1>
         <h3 id="subheader">June 4, 2022 - LEXINGTON, KY</h3>
@@ -53,10 +56,11 @@
         </div>
 
           <div id="rsvpForm">
+            <p id="rsvpHeader">RSVP Here</p>
             <form id="rsvpForm" method="post">
               <fieldset id="formInputs">
-                <label for="fullName" id="textFormat">Full Name</label>
-                <input type="text" id="fullName" placeholder="First and Last" required="" name=nameField>
+                <label for="fullName" id="textFormat"></label>
+                <input type="text" id="fullName" placeholder="Full Name" required="" name=nameField>
                 <br>
                 <label for="attendance" id="textFormat">Will you be in attendance?</label>
                 <select id="attendance" class="selectButton" required="" name="attendanceField">
@@ -66,7 +70,7 @@
                 </select>
                 <br>
                 <label for="guests" id="textFormat">How many guests will you bring?</label>
-                <select id="guests" required="" name="guestField">
+                <select id="guests" class="guestsButton" required="" name="guestField">
                     <option value="0" selected="">0</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
