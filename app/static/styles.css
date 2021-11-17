@@ -172,25 +172,24 @@ div.button {
 .btn-outline {
   outline: none;
   display: block;
-  border: solid 1px blue;
+  border: solid 2px rgb(111,111,109);
   font-size: 16px;
   line-height: 1;
   padding: 16px 30px;
   border-radius: 30px;
-  background: blue;
+  background: rgb(140,160,119);
   margin-left: -45px;
   margin-bottom: 100px;
 }
 
-.btn-outline:hover,
-.btn-outline:focus {
-  background: yellow;
-  color: white;
+.btn-outline:hover, .btn-outline:focus {
+  background: rgb(64,68,64);
+  color: rgb(111,111,109);
 }
 
 .btn-outline:active {
-  background: white;
-  color: yellow;
+  background: ivory;
+  color: rgb(229,221,210);
 }
 
 .page-header h1 {
@@ -224,10 +223,12 @@ div.button {
 }
 
 #infoImages {
-  margin-top: 75px;
+  margin-top: 100px;
 }
 
 #rsvpHeader {
   margin-bottom: 10px;
   font-size: 15pt;
+  font-family: "Fanwood Text";
+  color: rgb(111,111,109);
 }

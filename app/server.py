@@ -38,9 +38,8 @@ def rsvp():
     elif request.method == 'POST':
         form_data = request.form
         file = open("rsvp.txt", "a")
-        file.write(str(form_data['nameField']) + " " + str(form_data['attendanceField']), + " " + str(form_data['guestField']))
+        file.write(str(form_data['nameField']) + " " + str(form_data['attendanceField']) + " " + str(form_data['guestField']) + "\n")
         file.close()
-        print(form_data)
         return render_template('rsvp.html')
 
 @app.route("/static/background.jpg")
