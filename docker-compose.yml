@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  server:
+    build: .
+    image: server:latest
+    ports: 
+    - "5000:5000"
+    volumes: 
+    - .:/app
+    environment:
+      - FLASK_APP=src/app/server
+      - FLASK_ENV='development'
