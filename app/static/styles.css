@@ -1,5 +1,6 @@
 * {
   font-family: "Fanwood Text";
+  color: rgb(111,111,109);
 }
 
 html, body {
@@ -33,6 +34,10 @@ div#rsvpForm {
   position: relative;
 }
 
+#rsvpForm label {
+  font-size: 15pt;
+}
+
 div#hotel {
   margin-top: 100px;
   margin-left: 100px;
@@ -44,12 +49,12 @@ div#hotelName {
   text-align: center;
   margin-top: 0px;
   margin-bottom: -75px;
-  font-size: large;
+  font-size: 20pt;
 }
 
 div#hotelInfo {
   text-align: center;
-  margin-top: -40px;
+  margin-top: -20px;
   margin-bottom: 0px;
   font-size: large;
 }
@@ -95,7 +100,7 @@ div#hotelLink {
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   width: 50%;
   width: 750px;
   height: 500px;
@@ -153,13 +158,11 @@ div#hotel {
 }
 
 div#weddingDay {
-  justify-content: center;
-  align-items: center;
+  font-size: 25pt;
   text-align: center;
-}
-
-div#weddingTimeSection {
-  text-align: center;
+  margin-top: 5pt;
+  margin-bottom: 30pt;
+  font-family: "Fanwood Text";
 }
 
 div.button {
@@ -180,16 +183,21 @@ div.button {
   background: rgb(140,160,119);
   margin-left: -45px;
   margin-bottom: 100px;
+  color: rgb(0, 0, 0);
 }
 
 .btn-outline:hover, .btn-outline:focus {
   background: rgb(64,68,64);
-  color: rgb(111,111,109);
+  color: rgb(255, 255, 255);
 }
 
 .btn-outline:active {
   background: ivory;
-  color: rgb(229,221,210);
+  color: rgb(255, 255, 255);
+}
+
+div#hotelLink {
+  align-items: center;
 }
 
 .page-header h1 {
@@ -227,6 +235,7 @@ div.button {
 }
 
 #rsvpHeader {
+  margin-top: -35px;
   margin-bottom: 10px;
   font-size: 15pt;
   font-family: "Fanwood Text";
