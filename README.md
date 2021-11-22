@@ -1,4 +1,4 @@
-# The Worlds Best Wedding Website
+# The World's Best Wedding Website
 ### Made by: Robert (Chance) Bennett, Austin Arnold, Haley Hannan, Thomas Woeste
 
 
