@@ -3,6 +3,6 @@
 
 
 ## Running the website
-- To run the website locally in development mode run `app/run.sh`
-- Then navigate to `http://127.0.0.1:5000/` in a browser to see website
-    - Changes will update automatically
+1. Download docker or docker desktop and confirm you have docker compose installed
+1. Run the docker file with `docker-compose up`
+1. Then navigate to `http://127.0.0.1:5000/` in a browser to see website
