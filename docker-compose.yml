@@ -7,7 +7,7 @@ services:
     ports: 
     - "5000:5000"
     volumes: 
-    - .:/app
+    - .:/src
     environment:
       - FLASK_APP=src/app/server
       - FLASK_ENV='development'
