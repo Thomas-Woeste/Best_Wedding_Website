@@ -47,8 +47,8 @@ div#hotel {
 
 div#hotelName {
   text-align: center;
-  margin-top: 0px;
-  margin-bottom: -75px;
+  margin-top: 100px;
+  margin-bottom: -50px;
   font-size: 20pt;
 }
 
@@ -240,4 +240,29 @@ div#hotelLink {
   font-size: 15pt;
   font-family: "Fanwood Text";
   color: rgb(111,111,109);
+}
+
+div#schedule {
+  margin-bottom: 20px;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Fanwood Text";
+  color: rgb(111,111,109);
+}
+
+div#note {
+  margin-top: -100px;
+  margin-bottom: 150px;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Fanwood Text";
+  color: rgb(111,111,109);
+}
+
+div#p1 {
+  text-indent: 25px;
 }
